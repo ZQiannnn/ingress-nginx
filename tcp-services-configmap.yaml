@@ -4,4 +4,4 @@ metadata:
   name: tcp-services
   namespace: ingress-nginx
 data:
-  9000: "hybris-app/mysql:3306"
+  3306: "hybris-app/mysql:3306"
