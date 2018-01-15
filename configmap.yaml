@@ -5,5 +5,3 @@ metadata:
   namespace: ingress-nginx
   labels:
     app: ingress-nginx
-data:
-  ssl-redirect: "false"
