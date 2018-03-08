@@ -16,6 +16,8 @@ spec:
         prometheus.io/port: '10254'
         prometheus.io/scrape: 'true'
     spec:
+      nodeSelector:                 # If You Want Select Deployment Node
+        type: private
       serviceAccountName: nginx-ingress-serviceaccount
       containers:
         - name: nginx-ingress-controller
