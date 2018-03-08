@@ -12,6 +12,8 @@ spec:
       labels:
         app: default-http-backend
     spec:
+      nodeSelector:                 # If You Want Select Deployment Node
+        type: private
       terminationGracePeriodSeconds: 60
       containers:
       - name: default-http-backend
